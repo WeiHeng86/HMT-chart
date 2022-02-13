@@ -1,2 +1,3 @@
-# HMT-chart
- Holm’s multiple testing chart
+# Holm’s multiple testing chart (HMT-chart)
+
+As data acquisition and processing technologies continue to advance rapidly, new challenges emerge for statistical process monitoring. One such challenge, especially in the era of big data analytics, is monitoring multivariate processes involving a mixture of continuous, count and categorical quality variables. The existing multivariate control charts focus mostly on monitoring correlated variables of the same type. We propose a new Phase II control chart that is based on a modified Holm's step-down multiple testing procedure (Holm (1979)) which achieves two important goals at the same time: (1) it simultaneously monitors correlated variables of different types, while keeping the probability of false alarm under desirable level, and (2) when the process is determined to be out of control, it further provides, without any additional efforts, diagnostics to pinpoint which parameters are out of control.
